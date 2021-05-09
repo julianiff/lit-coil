@@ -16,4 +16,4 @@ const counter = atom({
     default: 0
 })
 
-litCoilState(counter) -> have method that can then is connected to the statemachine and can update the "atom"
+const [variable, variableSetter] = litCoilState(counter) -> have method that is connected to the statemachine and can update the "atom". 
